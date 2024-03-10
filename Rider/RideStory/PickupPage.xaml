@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             x:Class="Rider.RideStory.PickupPage"
+             Title="PickupPage">
+    <Grid>
+        <maps:Map x:Name="map"  />
+        
+        <Button x:Name="CancelRidebtn"  Text="Cancle Ride" TextColor="White" Clicked="CancelRidebtn_Clicked"  HorizontalOptions="Start" VerticalOptions="End" BackgroundColor="Red"></Button>
+
+        <Button x:Name="showDirectionsbtn" Text="Navigate"  HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Black"></Button>
+        <Entry x:Name="otpentry" Placeholder="Enter passenger Otp" TextChanged="otpentry_TextChanged" VerticalOptions="Start" HorizontalOptions="Center"></Entry>
+    </Grid>
+</ContentPage>

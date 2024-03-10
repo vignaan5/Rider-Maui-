@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             xmlns:vm="clr-namespace:Rider.ViewModelsMain"
+             x:DataType="vm:MainPageViewModel"
+             x:Class="Rider.MainPage" x:Name="mainpage" Title="" >
+
+    <Grid>
+        <maps:Map x:Name="map"  />
+        <Frame x:Name="RiderStatusFrame"   Margin="10" HorizontalOptions="Center" VerticalOptions="Start" HeightRequest="90" WidthRequest="180">
+            <HorizontalStackLayout Spacing="30">
+                <Label HorizontalOptions="Start" TextColor="Black" VerticalOptions="Center" Text="{Binding RiderStatusText}"></Label>
+                <Switch x:Name="GetOnOffDutySwitch"  OnColor="Green" Toggled="GetOn_OffDutySwitch_Toggled"   HorizontalOptions="Center" VerticalOptions="Center"></Switch>
+            </HorizontalStackLayout>
+        </Frame>
+
+    </Grid>
+
+
+
+</ContentPage>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821617661252",
+    "project_id": "react-native-gyanu-ride",
+    "storage_bucket": "react-native-gyanu-ride.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821617661252:android:fad57ce7746e0befa07311",
+        "android_client_info": {
+          "package_name": "com.gyanu_ride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1TSCSgDDYMhArfp5YUkpa8pKnCCdijc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

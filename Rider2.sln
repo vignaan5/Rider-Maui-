@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rider", "Rider\Rider.csproj", "{7AA33A25-C32C-42A8-AF48-06B7E945EDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AA33A25-C32C-42A8-AF48-06B7E945EDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA33A25-C32C-42A8-AF48-06B7E945EDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA33A25-C32C-42A8-AF48-06B7E945EDDA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7AA33A25-C32C-42A8-AF48-06B7E945EDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA33A25-C32C-42A8-AF48-06B7E945EDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA33A25-C32C-42A8-AF48-06B7E945EDDA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CB3F0E1-9126-47D6-A8CC-3CED17582E80}
+	EndGlobalSection
+EndGlobal
